@@ -18,6 +18,10 @@ header {
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -51,9 +55,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 1200px;
-  /*height: 1700px;*/
-  border: 1px solid white;
-  margin: 0 auto;
+  margin: 70px auto 0 auto;
 }
 
 /*mission part*/
@@ -77,8 +79,7 @@ a {
   flex-direction: column;
   align-items: center;
   width: 1000px;
-  margin: 0 auto;
-  border: 1px solid white;
+  margin: 50px auto;
 }
 
 .food {
@@ -98,4 +99,45 @@ a {
 
 .food h4 {
   margin-top: 10px;
+}
+
+/*locations part*/
+
+#locations {
+  height: 500px;
+  background-image: url(./css_images/img-locations-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adress {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+}
+
+.adress.East.Bayside {
+  margin: 0 40px;
+}
+
+/*footer section*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact {
+  height: 200px;
+}
+
+.contact h2 {
+  margin-top: 10px
+}
+
+.copyright {
+  align-self: flex-start;
 }
