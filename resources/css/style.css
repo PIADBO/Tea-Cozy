@@ -1,4 +1,6 @@
 
+/*Common rules*/
+
 html {
   font-family: Helvetica;
   font-size: 22px;
@@ -39,6 +41,7 @@ nav {
   align-items: center;
   height: 69px;
   text-decoration: underline;
+  margin-right: 10px;
 }
 
 nav span {
@@ -107,8 +110,18 @@ a {
   height: 500px;
   background-image: url(./css_images/img-locations-background.jpg);
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+#locations h2 {
+  margin-bottom: 15px;
+
+}
+
+.adresses {
+  display: flex;
+  justify-content: center;
 }
 
 .adress {
@@ -140,4 +153,5 @@ footer {
 
 .copyright {
   align-self: flex-start;
+  margin-left: 20px;
 }
